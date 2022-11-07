@@ -46,13 +46,14 @@ const TrangChu = () => {
             <View style={{flexDirection:'row'}}>
                 
                 {/* ảnh */}
-                <View style={{flex:2}}>
-                    <Image source={require('@app/assets/images/anhmot.png')}/> 
+                <View style={{flex:2, marginTop: 20, marginLeft:10,  }}>
+                    <Image source={require('../../assets/images/anhhai.png')}/> 
                 </View>
 
                 {/* chữ */}
-                <View style={{flex:8}}>
-                    <Text>LongHorn Steakhouse</Text>
+                <View style={{flex:4}}>
+                    <Text style={{marginTop:20,fontWeight: 'bold' , fontSize: 20, fontFamily: "Cochin" }}>LongHorn Steakhouse</Text>
+                    <Text style={{ fontSize: 20 }}>3605 Parker Rd.</Text>
                 </View>
 
             </View>
